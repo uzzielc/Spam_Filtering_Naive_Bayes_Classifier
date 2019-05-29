@@ -1,3 +1,5 @@
+% Original name of file was HW2_2.m
+
 z = dlmread('spambase.data',',');
 rng(0); % initialize the random number generator
 rp = randperm(size(z,1)); % random permutation of indices
